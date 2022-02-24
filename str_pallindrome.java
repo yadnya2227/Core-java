@@ -9,7 +9,7 @@ class str_pallindrome
 	System.out.println("enter a string");
 	Scanner scan=new Scanner(System.in);
 	s1=scan.next();
-	System.out.println("*\n string length is :"+s1.length());
+	System.out.println("\n string length is :"+s1.length());
 	for(i=s1.length()-1;i>=0;i--)
 	{
 	   s2=s2+s1.charAt(i);
